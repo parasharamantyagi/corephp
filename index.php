@@ -40,7 +40,7 @@ echo "<script>alert('Invalid details. Please try again');</script>";
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>User Registraion using PHP OOPs Concept</title>
+    <title>Core php assign task</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="assests/style.css" rel="stylesheet">
     <script src="assests/jquery-1.11.1.min.js"></script>
@@ -50,7 +50,7 @@ echo "<script>alert('Invalid details. Please try again');</script>";
 <form class="form-horizontal" action='' method="POST">
   <fieldset>
     <div id="legend">
-      <legend class="">User Signin using PHP OOPs Concept</legend>
+      <legend class="">Core php assign task</legend>
     </div>
 
 <div class="control-group">

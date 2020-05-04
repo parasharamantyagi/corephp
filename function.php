@@ -32,13 +32,12 @@ return $result;
 	
 	public function fetchdata($tablename)
 	{
+		$result = array();
 		$query =mysqli_query($this->dbh,"select * from $tablename WHERE role = '0'");
-		
 		while($row=mysqli_fetch_assoc($query))
 		{
 			$result[] = $row;
 		}
-		
 		return $result;
 	}
 	
